@@ -1,0 +1,12 @@
+.formwrapper{
+    background-color: beige;
+}
+.input{
+    margin-bottom:30px;
+    padding-bottom: 17px;
+    padding-right: 50px;
+    border-radius:1;
+    border:2px solid #444;
+    background-color:whitesmoke;
+    
+}

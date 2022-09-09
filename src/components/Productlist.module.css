@@ -1,0 +1,69 @@
+.pageTitle{
+    font-size:12px;
+}
+.mt30{
+    margin-top:30px;
+}
+.wrapper{
+     position:relative;
+     left:100px;
+     margin-top:12px;
+     background-color:rgb(207, 144, 144);
+     padding:10px;
+     width:100%;
+   
+     
+
+}
+.image{
+   
+    width:100%;
+    height:100%;
+  
+    
+   
+}
+
+.productcontent{
+    width:100%;
+    float:left;
+    padding:auto;
+    position:relative;
+    font-weight: bold;
+    left:10px;
+    margin-top: 0px;
+}
+.title{
+    font-size:15px;
+    margin-top:0px;
+   
+}
+.size{
+    margin-top:10px;
+    font-weight: bold;
+}
+.price{
+    margin-top:30px;
+    font-weight: bold;
+ 
+
+}
+.qty{
+    margin-top:30px;
+ 
+    font-weight: bold;
+}
+.desc{
+    margin-top:30px;
+ 
+    font-weight: bold;
+}
+.category{
+    margin-top:30px;
+ 
+    font-weight: bold;
+}
+.addtofav{
+    margin-top:30px;
+  
+}

@@ -1,0 +1,107 @@
+.header {
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: #6e3047;
+  padding: 0 5%;
+}
+.logo {
+  font-size:30px;
+  color: white;
+  font-weight: bold;
+  position: relative;
+  left:150px;
+}
+
+.header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: baseline;
+ 
+}
+
+.header li {
+  margin-left: 2rem;
+  font-size:15px;
+  position: relative;
+  right:100px;
+  font-weight: bold;
+}
+
+.header a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #161515;
+}
+
+.header a:hover,
+.header a:active,
+.header a.active {
+  color: white;
+}
+
+.badge {
+  background-color: #cc2062;
+  color: white;
+  border-radius: 12px;
+  padding: 0 1rem;
+  margin-left: 0.5rem;
+}
+.sidebar {
+    
+    padding: 0px;
+    width: 200px;
+    background-color: rgba(209, 228, 46, 0.733);
+    position: fixed;
+    text-align: justify;
+    height: 600%;
+    overflow: auto;
+    color:bisque;
+  }
+  .sidebar a {
+    display: block;
+    color:rgb(12, 14, 10);
+    font-weight: bold;
+    padding: 15px;
+    font-size: 18px;
+ 
+ 
+    
+  }
+   
+  .sidebar a.active {
+    background-color: rgb(176, 182, 192);
+    color: rgb(2, 20, 7);
+    margin: 0px;
+  
+  }
+  
+  .sidebar a:hover:not(.active) {
+    background-color:black;
+    color: white;
+
+  }
+
+ 
+  @media screen and (max-width: 100px) {
+    .sidebar {
+      width: 100%;
+      height: 500%;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+   
+  }
+  
+  @media screen and (max-width: 600px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+  .container{
+    background-color:beige;
+  }
